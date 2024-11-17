@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'  # Indicates the version of CloudFormation
+Description: >
+  A CloudFormation template to provision AWS resources.
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'  # Resource type for an S3 bucket
+    Properties:
+      BucketName: my-unique-example-bucket-12345  # Must be a unique name
